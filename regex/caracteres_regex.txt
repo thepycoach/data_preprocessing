@@ -1,0 +1,68 @@
+------------------
+Spanish
+-------------------
+
+Metacaracteres:
+\d      - Digitos (0-9)
+\D      - No digitos (0-9)
+\w      - Caracter de palabra (a-z, A-Z, 0-9, _)
+\W      - No caracter de palabra
+\s      - Espacio en blanco (espacio, tab, nueva linea)
+\S      - No espacio en blanco (espacio, tab, nueva linea)
+.       - Cualquier caracter excepto nueva linea (codicioso - greedy)
+\       - Cancela caracteres especiales
+
+^       - Inicio de una cadena de caracteres (string)
+$       - Fin de una cadena de caracteres
+
+Cuantificadores:
+*       - 0 o más (codicioso - greedy)
++       - 1 o más (codicioso - greedy)
+?       - 0 or 1 (perezoso - lazy)
+{3}     - Numero exacto
+{n,}    - Numero n+
+{3,4}   - Rango de números (Minimo, Maximo)
+
+( )     - Grupos
+[]      - Encuentra caracteres en corchetes
+[^ ]    - Encuentra caracteres que no están dentro de corchetes
+|       - Condicional O
+
+\b      - Limite de palabra
+\B      - No limite de palabra
+
+\1      - Referencias
+
+------------------
+English
+-------------------
+
+\d      - Digit (0-9)
+\D      - No digits (0-9)
+\w      - Word Character (a-z, A-Z, 0-9, _)
+\W      - Not a Word Character
+\s      - Whitespace (space, tab, new line)
+\S      - No Whitespace (space, tab, new line)
+.       - Any character except new line (greedy)
+\       - Ignores any special character
+
+^       - Beginning of a string
+$       - End of a string
+
+Quantifiers:
+*       - 0 or more (greedy)
++       - 1 or more (greedy)
+?       - 0 or 1 (lazy)
+{3}     - Exact number
+{n,}    - More than n characters
+{3,4}   - Range of numbers (Min, Max)
+
+( )     - Group
+[]      - Matches characters in brackets
+[^ ]    - Matches characters not in brackets
+|       - Or
+
+\b      - Word boundary
+\B      - No word boundary
+
+\1      - Reference
